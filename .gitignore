@@ -1,0 +1,78 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyo
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+MANIFEST
+
+# Virtual environments
+.venv/
+venv/
+ipenv/
+ENV/
+env/
+.conda/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Test & coverage
+.pytest_cache/
+.coverage
+coverage.xml
+htmlcov/
+.tox/
+.mypy_cache/
+.dmypy.json
+.pyre/
+.pytype/
+
+# IDEs & editors
+.vscode/
+.idea/
+*.code-workspace
+
+# OS-specific
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+logs/
+
+# Streamlit
+.streamlit/secrets.toml
+# Allow config (keep this line to negate folder ignore)
+!.streamlit/
+!.streamlit/config.toml
+
+# Node (if any frontend assets are added later)
+node_modules/
+
+# Misc
+*.swp
+*.swo
+*.tmp
+*.bak
+
+# Do not ignore required assets in repo root
+!Pharma Supply Chain Architecture.png
+!Agentic Interoperability - Final Deliverable.pdf
+!UIs/
+!sim/
